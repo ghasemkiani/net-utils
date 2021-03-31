@@ -1,0 +1,31 @@
+{
+  "name": "@ghasemkiani/net-utils",
+  "version": "1.0.0",
+  "description": "Net and web utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghasemkiani/net-utils.git"
+  },
+  "keywords": [
+    "net",
+    "web",
+    "web-client",
+    "proxy"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghasemkiani/net-utils/issues"
+  },
+  "homepage": "https://github.com/ghasemkiani/net-utils#readme",
+  "dependencies": {
+    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase",
+    "http-proxy-agent": "^4.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "socks-proxy-agent": "^5.0.0"
+  }
+}
