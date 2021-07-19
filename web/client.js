@@ -4,7 +4,7 @@ const fetch = require("isomorphic-fetch");
 const SocksProxyAgent = require("socks-proxy-agent");
 const HttpProxyAgent = require("http-proxy-agent");
 
-const {cutil} = require("@ghasemkiani/commonbase/cutil");
+const {cutil} = require("@ghasemkiani/base/cutil");
 
 const fetcher = {
 	_proxy: null,

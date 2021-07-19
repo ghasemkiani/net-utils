@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ghasemkiani/net-utils#readme",
   "dependencies": {
-    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase",
+    "@ghasemkiani/base": "github:ghasemkiani/base",
     "http-proxy-agent": "^4.0.1",
     "isomorphic-fetch": "^3.0.0",
     "socks-proxy-agent": "^5.0.0"
