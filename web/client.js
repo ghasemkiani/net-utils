@@ -1,10 +1,10 @@
 //	@ghasemkiani/net-utils/web/client
 
-const fetch = require("isomorphic-fetch");
-const SocksProxyAgent = require("socks-proxy-agent");
-const HttpProxyAgent = require("http-proxy-agent");
+import fetch from "isomorphic-fetch"
+import SocksProxyAgent from "socks-proxy-agent";
+import HttpProxyAgent from "http-proxy-agent";
 
-const {cutil} = require("@ghasemkiani/base/cutil");
+import {cutil} from "@ghasemkiani/base";
 
 const fetcher = {
 	_proxy: null,
@@ -28,4 +28,4 @@ const fetcher = {
 	},
 };
 
-module.exports = {fetcher};
+export {fetcher};

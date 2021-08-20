@@ -1,3 +1,3 @@
-const {fetcher} = require("@ghasemkiani/net-utils/web/client");
+import {fetcher} from "./web/client.js";
 
-module.exports = {fetcher};
+export {fetcher};
