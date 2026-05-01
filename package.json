@@ -1,6 +1,6 @@
 {
   "name": "@ghasemkiani/net-utils",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Net and web utilities",
   "type": "module",
   "main": "index.js",

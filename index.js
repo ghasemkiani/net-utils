@@ -1,3 +1,3 @@
-import {fetcher} from "./web/client.js";
+import { fetcher } from "./web/client.js";
 
-export {fetcher};
+export { fetcher };
